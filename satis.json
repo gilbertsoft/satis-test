@@ -1,0 +1,8 @@
+{
+  "name": "gilbertsoft/satis-test",
+  "homepage": "https://satis-test.ddev.site",
+  "repositories": [
+    { "type": "vcs", "url": "https://github.com/gilbertsoft/php-saferpay" }
+  ],
+  "require-all": true
+}

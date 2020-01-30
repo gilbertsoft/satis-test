@@ -1,0 +1,21 @@
+{
+    "name": "gilbertsoft/satis-test",
+    "description": "Satis test setup",
+    "type": "project",
+    "require": {
+        "composer/satis": "dev-master"
+    },
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Simon Gilli",
+            "email": "simon@gilbertsoft.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "satis:add": "satis add",
+        "satis:build": "satis build ./satis.json ./web/"
+    }
+}
